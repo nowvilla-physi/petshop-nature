@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.access {
+    max-width: 80%;
+    margin: 32px auto;
+    padding: 0 80px;
+    color: $black;
+
+    @include mq(md) {
+        max-width: 96%;
+        padding: 32px 0;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-message {
+            margin: 0 16px;
+            font-size: 1.8rem;
+
+            @include mq(lg) {
+                font-size: 1.6rem;
+            }
+
+            @include mq(sm) {
+                margin: 0 4px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    &__label {
+        @include mainLabel();
+    }
+
+    &__method {
+        padding: 16px 48px;
+        background-color: $white;
+        list-style-type: square;
+
+        @include mq(sm) {
+            font-size: 1.0rem;
+        }
+
+        &-item {
+            margin-bottom: 16px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.pets {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 16px 0;
+    color: $black;
+
+    @include mq(md) {
+        max-width: 80%;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.pet {
+    display: inline-block;
+    border: 2px $base-color solid;
+    box-shadow: 2px 2px 4px $base-color;
+    background-color: $base-color;
+    color: $white;
+
+    &__detail {
+        padding: 2% 4%;
+
+        &-name {
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        &-other {
+            margin-top: 4px;
+            font-size: 0.8rem;
+
+            @include mq(md) {
+                font-size: 0.7rem;
+            }
+        }
+
+        &-price {
+            margin-top: 8px;
+            color: $main-color;
+            font-size: 1.8rem;
+            text-decoration: underline;
+
+            @include mq(md) {
+                font-size: 1.4rem;
+            }
+        }
+
+        &-type {
+            max-width: 148px;
+            margin: 8px 0 0 auto;
+            padding: 4px 16px;
+            border-radius: 16px;
+            background-color: $orange;
+            color: $base-color;
+            font-size: 0.8rem;
+            text-align: center;
+
+            @include mq(md) {
+                max-width: 120px;
+                font-size: 0.6rem;
+            }
+        }
+    }
+}

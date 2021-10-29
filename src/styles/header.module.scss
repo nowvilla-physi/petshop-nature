@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 4%;
+    color: $black;
+
+    @include mq(md) {
+        flex-direction: column;
+    }
+
+    &__logo {
+        width: 30%;
+        max-height: 160px;
+
+        @include mq(md) {
+            width: 60%;
+        }
+
+        @include mq(sm) {
+            width: 50%;
+        }
+    }
+
+    &__info {
+        font-size: 1.4rem;
+
+        @include mq(md) {
+            font-size: 1.2rem;
+        }
+
+        @include mq(sm) {
+            font-size: 1.0rem;
+        }
+
+        &-item {
+            margin: 8px 0;
+            border-bottom: 2px dotted $accent-color;
+
+            &-label {
+                display: inline-block;
+                min-width: 80px;
+                margin-right: 16px;
+                padding: 4px 16px;
+                border-radius: 4px 4px 0 0;
+                background-color: $accent-color;
+                color: $white;
+                font-size: 1.0rem;
+                text-align: center;
+
+                @include mq(md) {
+                    font-size: 0.8rem;
+                }
+
+                @include mq(sm) {
+                    min-width: 64px;
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.pet-hotel {
+    max-width: 80%;
+    margin: 32px auto;
+    padding: 0 80px;
+    color: $black;
+
+    @include mq(md) {
+        max-width: 96%;
+        padding: 0;
+    }
+
+    &__label {
+        @include mainLabel();
+    }
+
+    &__about {
+        padding: 16px 48px;
+        background-color: $white;
+
+        @include mq(sm) {
+            padding: 16px 24px;
+        }
+
+        &-message {
+            margin-bottom: 16px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__price {
+        padding: 16px 48px;
+        background-color: $white;
+
+        @include mq(sm) {
+            padding: 16px 24px;
+        }
+
+        &-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+
+            @include mq(sm) {
+                font-size: 0.8rem;
+            }
+
+            &-tr {
+                border-bottom: solid 1px $black;
+
+                &:hover {
+                    background-color: $main-color;
+                    color: $white;
+                }
+            }
+
+            &-th {
+                width: 25%;
+                padding: 16px 0;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            &-td {
+                width: 25%;
+                padding: 16px 0;
+                text-align: center;
+            }
+        }
+
+        &-message {
+            margin-top: 16px;
+            font-size: 1.0rem;
+
+            @include mq(sm) {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    &__warning {
+        padding: 16px 48px;
+        background-color: $white;
+
+        @include mq(sm) {
+            padding: 16px 24px;
+        }
+
+        &-message {
+            margin-bottom: 16px;
+        }
+
+        &-message--red {
+            margin-bottom: 8px;
+            color: $red;
+            font-size: 1.4rem;
+
+            @include mq(sm) {
+                font-size: 1.2rem;
+            }
+        }
+
+        &-list {
+            padding-left: 24px;
+            list-style-type: square;
+
+            &-item {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

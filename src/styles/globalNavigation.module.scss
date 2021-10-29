@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.global-navigation {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+    background: linear-gradient($main-color, $violet);
+
+    &__item {
+        margin: 0 80px;
+        transition: all 500ms;
+
+        @include mq(lg) {
+            margin: 0 64px;
+            font-size: 1.0rem;
+        }
+
+        @include mq(md) {
+            margin: 0 32px;
+            font-size: 0.9rem;
+        }
+
+        @include mq(sm) {
+            margin: 0 12px;
+            font-size: 0.8rem;
+        }
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}

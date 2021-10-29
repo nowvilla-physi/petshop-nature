@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.blog {
+    border-radius: 16px;
+    box-shadow: 2px 2px 4px $base-color;
+    background-color: $base-color;
+
+    &__image {
+        padding: 4% 10%;
+        border-radius: 16px 16px 0 0;
+        border-bottom: 1px solid $white;
+        background-color: $gray;
+    }
+
+    &__info {
+        padding: 16px 16px 8px;
+        text-align: center;
+
+        &-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: left;
+
+            @include mq(md) {
+                font-size: 1.0rem;
+            }
+
+            @include mq(sm) {
+                font-size: 1.2rem;
+            }
+        }
+
+        &-date {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            text-align: left;
+
+            @include mq(md) {
+                font-size: 0.7rem;
+            }
+        }
+
+        &-detail {
+            margin-top: 16px;
+            font-size: 1.0rem;
+            line-height: 1.6;
+            text-align: left;
+
+            @include mq(md) {
+                font-size: 0.8rem;
+            }
+        }
+
+        &-button {
+            margin: 16px 0 8px;
+            padding: 4px 40px;
+            border-radius: 16px;
+            box-shadow: 1px 1px 4px $white;
+            background-color: $main-color;
+            font-size: 1.0rem;
+            transition: all 500ms;
+            text-align: center;
+
+            @include mq(md) {
+                font-size: 0.8rem;
+            }
+
+            &:hover {
+                background-color: $orange;
+                color: $black;
+
+                @include mq(md) {
+                    background-color: $main-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

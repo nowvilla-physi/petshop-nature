@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.blogs {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: center;
+    margin: 8px auto 0;
+    padding: 16px 0;
+    max-width: 60%;
+
+    @include mq(md) {
+        max-width: 80%;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+}

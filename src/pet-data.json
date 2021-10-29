@@ -1,0 +1,441 @@
+{
+  "tortoise": [
+    {
+      "name": "ケヅメリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/tortoise1.png"
+    },
+    {
+      "name": "インドホシガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/tortoise2.png"
+    },
+    {
+      "name": "ヒョウモンリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/tortoise3.png"
+    },
+    {
+      "name": "アカアシリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/tortoise4.png"
+    },
+    {
+      "name": "ホウシャリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "超希少種！！",
+      "imgUrl": "/images/tortoise5.png"
+    },
+    {
+      "name": "アルダブラゾウガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/tortoise6.png"
+    },
+    {
+      "name": "ヘルマンリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/tortoise7.png"
+    },
+    {
+      "name": "ロシアリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/tortoise8.png"
+    },
+    {
+      "name": "ギリシャリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/tortoise9.png"
+    },
+    {
+      "name": "ビルマホシガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "超希少種！！",
+      "imgUrl": "/images/tortoise10.png"
+    },
+    {
+      "name": "パンケーキリクガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/tortoise11.png"
+    },
+    {
+      "name": "ナタールセオレガメ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 7.5,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/tortoise12.png"
+    }
+  ],
+  "turtle": [
+    {
+      "name": "ミシシッピアカミミガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 1000,
+      "type": "人気種！！",
+      "imgUrl": "/images/turtle1.png"
+    },
+    {
+      "name": "クサガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/turtle2.png"
+    },
+    {
+      "name": "イシガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/turtle3.png"
+    },
+    {
+      "name": "キボシイシガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/turtle4.png"
+    },
+    {
+      "name": "ミシシッピニオイガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/turtle5.png"
+    },
+    {
+      "name": "カブトニオイガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "人気種！！",
+      "imgUrl": "/images/turtle6.png"
+    },
+    {
+      "name": "スッポンモドキ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/turtle7.png"
+    },
+    {
+      "name": "マタマタ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "超希少種！！",
+      "imgUrl": "/images/turtle8.png"
+    },
+    {
+      "name": "ジーベンロックナガクビガメ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 3.0,
+      "price": 10000,
+      "type": "希少種！！",
+      "imgUrl": "/images/turtle9.png"
+    }
+  ],
+  "chameleon": [
+    {
+      "name": "エボシカメレオン",
+      "gender": "♂",
+      "isCB": true,
+      "length": 10.0,
+      "price": 40000,
+      "type": "人気種！！",
+      "imgUrl": "/images/chameleon1.png"
+    },
+    {
+      "name": "パンサーカメレオン",
+      "gender": "♂",
+      "isCB": true,
+      "length": 10.0,
+      "price": 40000,
+      "type": "人気種！！",
+      "imgUrl": "/images/chameleon2.png"
+    },
+    {
+      "name": "ジャクソンカメレオン",
+      "gender": "♂",
+      "isCB": true,
+      "length": 10.0,
+      "price": 40000,
+      "type": "希少種！！",
+      "imgUrl": "/images/chameleon3.png"
+    },
+    {
+      "name": "カレハカメレオン",
+      "gender": "♂",
+      "isCB": true,
+      "length": 10.0,
+      "price": 40000,
+      "type": "希少種！！",
+      "imgUrl": "/images/chameleon4.png"
+    },
+    {
+      "name": "ミクロヒメカメレオン",
+      "gender": "♂",
+      "isCB": true,
+      "length": 10.0,
+      "price": 40000,
+      "type": "超希少種！！",
+      "imgUrl": "/images/chameleon5.png"
+    }
+  ],
+  "leopa": [
+    {
+      "name": "ヒョウモントカゲモドキ ハイイエロー",
+      "gender": "♀",
+      "isCB": true,
+      "length": 8.0,
+      "price": 15000,
+      "type": "人気種！！",
+      "imgUrl": "/images/leopa1.png"
+    },
+    {
+      "name": "ヒョウモントカゲモドキ タンジェリン",
+      "gender": "♀",
+      "isCB": true,
+      "length": 8.0,
+      "price": 15000,
+      "type": "人気種！！",
+      "imgUrl": "/images/leopa2.png"
+    },
+    {
+      "name": "ヒョウモントカゲモドキ アルビノ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 8.0,
+      "price": 15000,
+      "type": "希少種！！",
+      "imgUrl": "/images/leopa3.png"
+    },
+    {
+      "name": "ヒョウモントカゲモドキ スーパーマックスノー",
+      "gender": "♀",
+      "isCB": true,
+      "length": 8.0,
+      "price": 15000,
+      "type": "希少種！！",
+      "imgUrl": "/images/leopa4.png"
+    },
+    {
+      "name": "ダイオウトカゲモドキ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 8.0,
+      "price": 15000,
+      "type": "希少種！！",
+      "imgUrl": "/images/leopa5.png"
+    },
+    {
+      "name": "オバケトカゲモドキ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 8.0,
+      "price": 15000,
+      "type": "希少種！！",
+      "imgUrl": "/images/leopa6.png"
+    }
+  ],
+  "frog": [
+    {
+      "name": "イエアメガエル",
+      "gender": "♂",
+      "isCB": true,
+      "length": 4.0,
+      "price": 5000,
+      "type": "人気種！！",
+      "imgUrl": "/images/frog1.png"
+    },
+    {
+      "name": "ツノガエル",
+      "gender": "♂",
+      "isCB": true,
+      "length": 4.0,
+      "price": 5000,
+      "type": "人気種！！",
+      "imgUrl": "/images/frog2.png"
+    },
+    {
+      "name": "アメフクラガエル",
+      "gender": "♂",
+      "isCB": true,
+      "length": 4.0,
+      "price": 5000,
+      "type": "希少種！！",
+      "imgUrl": "/images/frog3.png"
+    },
+    {
+      "name": "ミイロヤドクガエル",
+      "gender": "♂",
+      "isCB": true,
+      "length": 4.0,
+      "price": 5000,
+      "type": "希少種！！",
+      "imgUrl": "/images/frog4.png"
+    },
+    {
+      "name": "トノサマガエル",
+      "gender": "♂",
+      "isCB": true,
+      "length": 4.0,
+      "price": 5000,
+      "type": "人気種！！",
+      "imgUrl": "/images/frog5.png"
+    },
+    {
+      "name": "バジェットガエル",
+      "gender": "♂",
+      "isCB": true,
+      "length": 4.0,
+      "price": 5000,
+      "type": "人気種！！",
+      "imgUrl": "/images/frog6.png"
+    }
+  ],
+  "axolotl": [
+    {
+      "name": "ウーパールーパー ホワイト",
+      "gender": "♀",
+      "isCB": true,
+      "length": 6.0,
+      "price": 4500,
+      "type": "希少種！！",
+      "imgUrl": "/images/axolotl1.png"
+    },
+    {
+      "name": "ウーパールーパー ブラック",
+      "gender": "♀",
+      "isCB": true,
+      "length": 4.0,
+      "price": 4500,
+      "type": "希少種！！",
+      "imgUrl": "/images/axolotl2.png"
+    },
+    {
+      "name": "ウーパールーパー アルビノ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 4.0,
+      "price": 4500,
+      "type": "希少種！！",
+      "imgUrl": "/images/axolotl3.png"
+    }
+  ],
+  "salamander": [
+    {
+      "name": "クロサンショウウオ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 8.0,
+      "price": 3800,
+      "type": "人気種！！",
+      "imgUrl": "/images/salamander1.png"
+    },
+    {
+      "name": "ブチサンショウウオ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 8.0,
+      "price": 3800,
+      "type": "希少種！！",
+      "imgUrl": "/images/salamander2.png"
+    },
+    {
+      "name": "トウキョウサンショウウオ",
+      "gender": "♂",
+      "isCB": true,
+      "length": 8.0,
+      "price": 3800,
+      "type": "人気種！！",
+      "imgUrl": "/images/salamander3.png"
+    },
+    {
+      "name": "タイガーサラマンダー",
+      "gender": "♂",
+      "isCB": true,
+      "length": 8.0,
+      "price": 3800,
+      "type": "希少種！！",
+      "imgUrl": "/images/salamander4.png"
+    }
+  ],
+  "newt": [
+    {
+      "name": "アカハライモリ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 5.0,
+      "price": 2000,
+      "type": "人気種！！",
+      "imgUrl": "/images/newt1.png"
+    },
+    {
+      "name": "マダライモリ",
+      "gender": "♀",
+      "isCB": true,
+      "length": 5.0,
+      "price": 2000,
+      "type": "人気種！！",
+      "imgUrl": "/images/newt2.png"
+    }
+  ]
+}
